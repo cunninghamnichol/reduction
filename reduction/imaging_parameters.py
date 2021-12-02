@@ -4431,6 +4431,7 @@ line_parameters_custom = {
         "h30a": {"cubewidth": "120km/s", "vlsr": "90km/s"},
     },
     "W51-E": {
+        "spw5": {"mask-ranges": [(50, 60)]},  # km/s units
         "12co": {"cubewidth": "150km/s"},
         "sio": {"cubewidth": "150km/s"},
         "ch3cnv8=1": {"cubewidth": "150km/s"},
